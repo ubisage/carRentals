@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./singlePost.module.css";
-import PostUser from "@/components/postUser/postUser";
 import { Suspense } from "react";
 import { getPost } from "@/lib/data";
+import PostUser from "@/app/Components/postUser/postUser";
 
 // FETCH DATA WITH AN API
-const getData = async (slug) => {
+const getData = async (slug:any) => {
   const res = await fetch(`http://localhost:3000/api/blog/${slug}`);
 
   if (!res.ok) {
@@ -15,7 +15,7 @@ const getData = async (slug) => {
   return res.json();
 };
 
-export const generateMetadata = async ({ params }) => {
+export const generateMetadata = async ({ params }:any) => {
   const { slug } = params;
 
   const post = await getPost(slug);
@@ -26,7 +26,7 @@ export const generateMetadata = async ({ params }) => {
   };
 };
 
-const SinglePostPage = async ({ params }) => {
+const SinglePostPage = async ({ params }:any) => {
   const { slug } = params;
 
   // FETCH DATA WITH AN API

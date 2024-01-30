@@ -59,7 +59,7 @@ const Enjoy = () => {
             {data.map((place, index) => (
                 <div key={place.name + index} className="aspect-video  px-3 sm:px-0 ">
               <div key={place.name + index} className="border flex flex-col justify-between rounded-lg overflow-hidden shadow-sm ">
-                <Image src={place.image} alt={place.name}  objectFit="cover"/>
+                <Image src={place.image} alt={place.name} />
               </div>
                 <h4 className=" mt-3 ">{place.name}</h4>
                 </div>

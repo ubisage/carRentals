@@ -5,21 +5,21 @@ export const authConfig = {
     providers: [],
     callbacks: {
       // FOR MORE DETAIL ABOUT CALLBACK FUNCTIONS CHECK https://next-auth.js.org/configuration/callbacks
-      async jwt({ token, user }) {
+      async jwt({ token, user }:any) {
         if (user) {
           token.id = user.id;
           token.isAdmin = user.isAdmin;
         }
         return token;
       },
-      async session({ session, token }) {
+      async session({ session, token }:any) {
         if (token) {
           session.user.id = token.id;
           session.user.isAdmin = token.isAdmin;
         }
         return session;
       },
-      authorized({ auth, request }) {
+      authorized({ auth, request }:any) {
         const user = auth?.user;
         const isOnAdminPanel = request.nextUrl?.pathname.startsWith("/admin");
         const isOnBlogPage = request.nextUrl?.pathname.startsWith("/blog");

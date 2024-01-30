@@ -38,7 +38,6 @@ const Links = ({session}:any) => {
         {links.map((link) => (
           <NavLink item={link} key={link.title} />
         ))}
-        {console.log(session)}
         {session?.user ? (
           <>
             {session.user?.isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }} />}

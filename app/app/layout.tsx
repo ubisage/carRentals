@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar/Navbar";
-import Footer from "@/components/footer/Footer";
-import ClientSideProviderTest from "@/components/clientSideProviderTest";
+import Navbar from "../Components/navbar/Navbar";
+import Footer from "../Components/footer/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +14,7 @@ export const metadata = {
   description: "Next.js starter app description",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }:{children:any}) {
   return (
     <html lang="en">
       <body className={inter.className}>

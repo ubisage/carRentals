@@ -13,7 +13,7 @@ import Image from "next/image";
 //   return res.json();
 // };
 
-const PostUser = async ({ userId }) => {
+const PostUser = async ({ userId }:any) => {
   // FETCH DATA WITH AN API
   // const user = await getData(userId);
 
