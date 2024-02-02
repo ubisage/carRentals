@@ -8,7 +8,7 @@ const Navbar = async () => {
   const session = await auth();
 
   return (
-    <div className={`${styles.container} sm:px-8`}>
+    <div className={`${styles.container} px-8`}>
       <Link href="/" className={styles.logo}>Logo</Link>
       <div>
         <Links session={session}/>

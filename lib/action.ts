@@ -5,7 +5,7 @@ import { Post, User } from "./models";
 import { connectToDb } from "./utils";
 import { signIn, signOut } from "./auth";
 import bcrypt from "bcryptjs";
-
+import emailjs from '@emailjs/browser';
 export const addPost = async (prevState:any,formData:any) => {
   // const title = formData.get("title");
   // const desc = formData.get("desc");
@@ -93,6 +93,18 @@ export const handleGithubLogin = async () => {
 export const handleLogout = async () => {
   "use server";
   await signOut();
+};
+
+export const sendEmail = async (ref:any) => {
+
+
+
+emailjs.sendForm(process.env.EMAILJS_SERVICE_ID!.toString(), process.env.EMAILJS_TEMPLATE_ID!.toString(), ref, process.env.EMAILJS_PUBLIC!.toString())
+  .then((result) => {
+      console.log(result.text);
+  }, (error) => {
+      console.log(error.text);
+  });
 };
 
 export const register = async (previousState:any, formData:any) => {

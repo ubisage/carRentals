@@ -31,7 +31,7 @@ const data = [
 ];
 const Enjoy = () => {
   return (
-    <div className="sm:px-[10vw] mt-16">
+    <div className="px-8 my-16">
       <div className="flex flex-col gap-4">
         <h3 className="text-4xl text-center font-extrabold text-gray-900 dark:text-white">
           ENJOY JAMMU AND KASHMIR

@@ -5,6 +5,7 @@ import OurServices from "./Components/Homepage/OurServices";
 import WeAreHere from "./Components/Homepage/WeAreHere";
 import Enjoy from "./Components/Homepage/Enjoy";
 import RelaxWithUS from "./Components/Homepage/RelaxWithUS";
+import HeaderAnimation from "./Components/Homepage/HeaderAnimation";
 const Home = () => {
   return (
     <>
@@ -34,8 +35,10 @@ const Home = () => {
         <Image src={carGif} alt="Car"  className="w-full h-full object-cover mix-blend-luminosity"/>
       </div>
 
-      <div className="absolute top-1/2 left-10"> 
-      <h1 className="text-4xl font-bold tracking-tight">Taxi Service, Car Rentals, Bike Rental, </h1>
+      <div className="absolute top-1/2 px-10 -translate-y-1/2"> 
+
+      <h1 className="text-4xl font-bold tracking-tight aria-readonly:Taxi Service, Car Rentals, Bike Rental In Jammu and Kashmir hidden">Taxi Service, Car Rentals, Bike Rental, Cab services in Jammu and Kashmir. </h1>
+      <HeaderAnimation/>
       <p>in Jammu and Kashmir.</p>
       </div>
     </div>
