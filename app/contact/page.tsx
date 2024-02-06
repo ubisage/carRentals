@@ -19,7 +19,8 @@ const ContactPage = () => {
   // const a = Math.random();
 
   // console.log(a);
-
+  async function hi(){const t1 = new Promise((resolve)=>setTimeout(resolve,10000))};
+  hi();
 
 
 

@@ -7,7 +7,7 @@ const ContactForm = () => {
 const contactFormRef = useRef(null);
 const [isLoading, setIsLoading] = useState(false)
 const [error, setError] = useState(null)
-
+ 
 async function handleSubmit() {
     // there is no directive here
     setIsLoading(true)
