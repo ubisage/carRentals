@@ -1,16 +1,10 @@
-import Link from "next/link"
-import Links from "./links/Links"
-import styles from "./navbar.module.css"
-import { auth } from "@/lib/auth";
-const Navbar = async () => {
+import React from 'react'
 
-  const session = await auth();
-
+const Logo = () => {
   return (
-    <div className={`${styles.container} px-8`}>
-      <Link href="/" className={styles.logo}>
-<svg fill="currentColor" height="80px" width="80px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"  
-	 viewBox="0 0 460.384 460.384" >
+    <>
+<svg fill="currentColor" height="80px" width="80px" version="1.1"   
+	 viewBox="0 0 80 80" >
 <g>
 	<path d="M95.252,283.11c-13.807,0-25.039,11.232-25.039,25.039s11.232,25.039,25.039,25.039s25.039-11.233,25.039-25.039
 		S109.059,283.11,95.252,283.11z M95.252,318.188c-5.536,0-10.039-4.504-10.039-10.039s4.503-10.039,10.039-10.039
@@ -48,13 +42,9 @@ const Navbar = async () => {
 		C92.697,183.321,94.242,177.323,95.432,173.002z M214.352,188.314v-47.169h40.821c7.316,0,14.235,3.868,18.062,10.1l22.807,37.069
 		H214.352z"/>
 </g>
-</svg></Link>
-      <div>
-        <Links session={session}/>
-        {/* <Links /> */}
-      </div>
-    </div>
+</svg>
+    </>
   )
 }
 
-export default Navbar
+export default Logo

@@ -6,10 +6,13 @@ import WeAreHere from "./Components/Homepage/WeAreHere";
 import Enjoy from "./Components/Homepage/Enjoy";
 import RelaxWithUS from "./Components/Homepage/RelaxWithUS";
 import HeaderAnimation from "./Components/Homepage/HeaderAnimation";
+import Head from "next/head";
 const Home = () => {
   return (
     <>
-
+  {/* <Head>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  </Head> */}
 
     {/* <div className={styles.container}>
       <div className={styles.textContainer}>
@@ -32,7 +35,7 @@ const Home = () => {
     </div> */}
     <div className="h-[calc(100vh-100px)] relative ">
       <div className="w-full h-full bg-gray-700 opacity-50">
-        <Image src={carGif} alt="Car"  className="w-full h-full object-cover mix-blend-luminosity"/>
+        <Image src={carGif} alt="Car"  className="w-full h-full object-cover mix-blend-luminosity" unoptimized />
       </div>
 
       <div className="absolute top-1/2 px-10 -translate-y-1/2"> 

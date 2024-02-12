@@ -14,14 +14,7 @@
     color:var(--btn)
   }
   
-  .title{
-    font-size: 54px;
-  }
-  
-  .desc{
-    font-size: 20px;
-    font-weight: 300;
-  }
+
   
   .boxes{
     display: flex;
@@ -35,13 +28,14 @@
     gap: 10px;
   }
   
-  .box h1{
+  .box h3{
     color: var(--btn);
   }
   
   .imgContainer {
     flex: 1;
     position: relative;
+    flex-shrink: 0;
   }
   
   .img{

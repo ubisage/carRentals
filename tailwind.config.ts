@@ -13,6 +13,7 @@ const config: Config = {
         primary700: '#6941C6',
         primary100: '#F4EBFF',
         primary50:'#F9F5FF',
+        button:'#3673fd',
 
         tc: '#475467',
     },
@@ -21,6 +22,14 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        'gradient': 'gradient 8s linear infinite',
+      },
+      keyframes: {
+        'gradient': {
+          to: { 'background-position': '200% center' },
+        }
+      } ,
     },
   },
   plugins: [],
