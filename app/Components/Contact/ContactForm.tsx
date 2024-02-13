@@ -22,11 +22,11 @@ async function handleSubmit() {
 }
 
   return (
-    <form action={handleSubmit} ref={contactFormRef} className={styles.form}>
-          <input className='focus:outline dark:focus:outline-white' type="text" placeholder="Name and Surname" name="username" required/>
-          <input className='focus:outline dark:focus:outline-white' type="email" placeholder="Email Address" name="email" required />
-          <input className='focus:outline dark:focus:outline-white' type="tel" placeholder="Phone Number" name="phoneNumber" required/>
-          <textarea className='focus:outline dark:focus:outline-white' 
+    <form action={handleSubmit} ref={contactFormRef} className={`${styles.form} `}>
+          <input className=' w-full focus:outline dark:focus:outline-white' type="text" placeholder="Name and Surname" name="username" required/>
+          <input className=' w-full focus:outline dark:focus:outline-white' type="email" placeholder="Email Address" name="email" required />
+          <input className=' w-full focus:outline dark:focus:outline-white' type="tel" placeholder="Phone Number" name="phoneNumber" required/>
+          <textarea className=' w-full focus:outline dark:focus:outline-white' 
             name="message"
             id=""
             cols={30}

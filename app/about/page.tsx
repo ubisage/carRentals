@@ -10,7 +10,7 @@ export const metadata = {
 const AboutPage = () => {
   // console.log("lets check where it works")
   return (
-    <main>
+    <main className="flex flex-col">
       <h2 className="text-button flex items-center justify-center my-4 text-lg font-semibold tracking-wider px-8 text-center">
         About Car Rentals Jammu and Kashmir
       </h2>
@@ -40,7 +40,7 @@ const AboutPage = () => {
           />
         </div>
       </div>
-      <section className="px-8 mt-10 flex flex-col sm:flex-row w-full h-screen justify-between items-center gap-4">
+      <section className="px-8 mt-10 flex flex-col sm:flex-row w-full sm:h-screen justify-between items-center gap-4">
         <div className="w-full sm:w-1/2 h-full">{<Suv />}</div>
 
         <p className=" w-full sm:w-1/2 text-sm sm:text-lg leading-6 px-3">
@@ -56,7 +56,7 @@ const AboutPage = () => {
           unforgettable journey.
         </p>
       </section>
-      <section className="px-8 mt-10 ">
+      <section className="px-8 mt-10 h-full ">
         <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-12 px-10 py-10  ">
           {/* <div className={`${styles.box} hover:bg-gradient-to-br from-slate-800 rounded-lg py-3 px-2`}> */}
           <div className={`${styles.box}`}>
@@ -68,8 +68,8 @@ const AboutPage = () => {
             <p>Support</p>
           </div>
           <div className={styles.box}>
-            <h3 className="text-3xl font-semibold text-center">10 K+</h3>
-            <p>Year of experience</p>
+            <h3 className="text-3xl font-semibold text-center">100%</h3>
+            <p>Customer Retention</p>
           </div>
         </div>
       </section>

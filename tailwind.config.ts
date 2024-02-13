@@ -7,6 +7,7 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    
     extend: {
       colors: {
         primary: '#7f56d9',
@@ -14,7 +15,8 @@ const config: Config = {
         primary100: '#F4EBFF',
         primary50:'#F9F5FF',
         button:'#3673fd',
-
+        bg:'#0d0c22',
+        bgSoft:'#2d2b42',
         tc: '#475467',
     },
       backgroundImage: {
@@ -29,7 +31,11 @@ const config: Config = {
         'gradient': {
           to: { 'background-position': '200% center' },
         }
-      } ,
+      },
+      screens:{
+        'msm': {'max' : '639px'},
+        'mxsm': {'max' : '420px'},
+      },
     },
   },
   plugins: [],

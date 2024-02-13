@@ -6,6 +6,7 @@ import jamiaMasjid from "@/public/Homepage/jamiaMasjid.jpg";
 import ladakh from "@/public/Homepage/ladakh.jpg";
 import tulipgarden from "@/public/Homepage/tulipgarden.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const data = [
   {
@@ -49,10 +50,12 @@ const Enjoy = () => {
                 and fauna, which has earned it its inclusion in the list of
                 brautiful places.
               </p>
-
+              <Link href={"https://en.wikipedia.org/wiki/Tourism_in_Jammu_and_Kashmir#:~:text=Some%20major%20tourist%20attractions%20in,impact%20on%20the%20state's%20economy."} target="blank">
               <button className="bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-6">
                 Learn more
               </button>
+              </Link>
+                
             </div>
           </div>
           <div className="grid sm:grid-cols-2 gap-4 ">

@@ -43,14 +43,14 @@ const OurServices = () => {
 
           <div className="flex flex-wrap items-center justify-evenly mt-16 gap-4">
             <div className=" drop-shadow-lg">
-              <div className="card light:border overflow-clip border-black  rounded-[10px_50px_10px_10px] hover:shadow-[13px_15px_0px_0px_#7B61FF,0px_1px_2px_0px_#7F56D9] transition-shadow text-center flex flex-col h-full">
+              <div className="card light:border overflow-clip border-black  rounded-[10px_50px_10px_10px] hover:shadow-[13px_15px_0px_0px_#7f56d9,0px_1px_2px_0px_#7F56D9] transition-shadow text-center flex flex-col h-full">
                 <div className="max-w-[360px]  max-h-[200px] overflow-hidden flex items-center justify-center  mx-auto">
                   <Image src={Car1} alt="Cab Service" width={360} height={180}  />
                 </div>
                 <h3 className="font-semibold mt-8 px-4 text-lg">
                   Cab Services
                 </h3>
-                <ul role="list" className="mb-8 mt-4 px-4 space-y-3 text-left text-xs *:sm:text-base">
+                <ul role="list" className="mb-4 mt-4 px-4 space-y-3 text-left text-xs *:sm:text-base">
                   <li className="flex items-center space-x-3">
                     <svg
                       className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
@@ -150,13 +150,13 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <div className="mt-auto px-4 sm:py-4">
+                <div className="my-2 sm:mt-auto px-4 sm:py-4">
                   <Link
                     href={"/services/managed-services"}
                     aria-label="Managed Services"
                   >
-                    <button className="bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
-                      Book Now
+                    <button className="msm:text-sm bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
+                      Book Now {'->'}
                     </button>
                   </Link>
                 </div>
@@ -174,7 +174,7 @@ const OurServices = () => {
                   />
                 </div>
                 <h3 className="font-semibold mt-8 px-4 text-lg">Car Rentals</h3>
-                <ul role="list" className="mb-8 mt-4 px-4 space-y-3 text-left text-xs *:sm:text-base">
+                <ul role="list" className="mb-4 mt-4 px-4 space-y-3 text-left text-xs *:sm:text-base">
                   <li className="flex items-center space-x-3">
                     <svg
                       className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
@@ -274,13 +274,13 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <div className="mt-auto px-4 sm:py-4">
+                <div className="my-2 sm:mt-auto px-4 sm:py-4">
                   <Link
                     href={"/services/managed-services"}
                     aria-label="Managed Services"
                   >
-                    <button className="bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
-                      Book Now
+                    <button className="msm:text-sm bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
+                      Book Now {'->'}
                     </button>
                   </Link>
                 </div>
@@ -294,7 +294,7 @@ const OurServices = () => {
                 <h3 className="font-semibold mt-8 px-4 text-lg">
                   Bike Rentals
                 </h3>
-                <ul role="list" className="mb-8 mt-4 px-4 space-y-3 text-left text-xs *:sm:text-base">
+                <ul role="list" className="mb-4 mt-4 px-4 space-y-3 text-left text-xs *:sm:text-base">
                   <li className="flex items-center space-x-3">
                     <svg
                       className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
@@ -396,13 +396,13 @@ const OurServices = () => {
                     </span>
                   </li>
                 </ul>
-                <div className="mt-auto px-4 sm:py-4">
+                <div className="my-2 sm:mt-auto px-4 sm:py-4">
                   <Link
                     href={"/services/managed-services"}
                     aria-label="Managed Services"
                   >
-                    <button className="bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
-                      Book Now
+                    <button className="msm:text-sm bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
+                      Book Now {'->'}
                     </button>
                   </Link>
                 </div>
