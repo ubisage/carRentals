@@ -1,6 +1,6 @@
+import DefaultProfileImage from '@/public/GeneralIcons/DefaultProfileImage'
 import Image from 'next/image'
 import React from 'react'
-import DefaultProfileImage from "@/public/GeneralIcons/DefaultProfileImage"
 const Testimonials = () => {
   return (
     <section className="py-12  sm:py-16 lg:py-20">

@@ -18,7 +18,7 @@ sequence={[
   500,
 ]}
 speed={50}
-className='text-5xl font-bold'
+className='text-3xl sm:text-5xl font-bold'
 repeat={Infinity}
 />
 </div>

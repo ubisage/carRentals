@@ -35,7 +35,7 @@ const Home = () => {
         <Image src="/hero.gif" alt="" fill className={styles.heroImg}/>
       </div>
     </div> */}
-    <div className="h-[calc(100vh-100px)] relative ">
+    <div className=" sm:h-[calc(100vh-100px)] relative ">
       <div className="w-full h-full bg-gray-700 opacity-50">
         <Image src={carGif} alt="Car"  className="w-full h-full object-cover mix-blend-luminosity" unoptimized />
       </div>
