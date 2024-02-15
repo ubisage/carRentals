@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 const HeaderAnimation = () => {
   return (
     <div>
-    <div>We provide services</div>
+    <div>We provide best services for</div>
 <TypeAnimation
 preRenderFirstString={true}
 sequence={[

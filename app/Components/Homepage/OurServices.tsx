@@ -22,18 +22,18 @@ const OurServices = () => {
           </p>
         </div>
         <article className="w-full flex justify-evenly items-center flex-wrap gap-4 ">
+          <Link href={'#cabService'}>
+          <div className="w-20 h-20 text-white stroke-white flex justify-between items-center border rounded p-2 ">
+            <CabServiceIcon />
+          </div>
+          <h6 className="text-sm">Cab Service</h6>
+          </Link>
           <Link href={'#carRental'} className="flex flex-col">
 
           <div className="w-20 h-20 text-white stroke-white flex justify-between items-center border rounded p-2 ">
             <CarRentalServiceIcon />
           </div>
             <h6 className="text-sm">Car Rental</h6>
-          </Link>
-          <Link href={'#cabService'}>
-          <div className="w-20 h-20 text-white stroke-white flex justify-between items-center border rounded p-2 ">
-            <CabServiceIcon />
-          </div>
-          <h6 className="text-sm">Cab Service</h6>
           </Link>
           <Link href={'#bikeRental'}>
           <div className="w-20 h-20 text-white stroke-white flex justify-between items-center border rounded p-2 ">

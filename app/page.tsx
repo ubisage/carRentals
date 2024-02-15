@@ -8,6 +8,7 @@ import RelaxWithUS from "./Components/Homepage/RelaxWithUS";
 import HeaderAnimation from "./Components/Homepage/HeaderAnimation";
 import Head from "next/head";
 import React from "react";
+import HowToUse from "./Components/Homepage/HowToUse";
 const Testimonials = React.lazy(()=>import ("./Components/Homepage/Testimonials"));
 const Home = () => {
   return (
@@ -44,9 +45,10 @@ const Home = () => {
 
       <h1 className="text-4xl font-bold tracking-tight aria-readonly:Taxi Service, Car Rentals, Bike Rental In Jammu and Kashmir hidden">Taxi Service, Car Rentals, Bike Rental, Cab services in Jammu and Kashmir. </h1>
       <HeaderAnimation/>
-      <p>in Jammu and Kashmir.</p>
+      <p>in Jammu and Kashmir and Ladakh</p>
       </div>
     </div>
+      <HowToUse/>
       <OurServices/>
       <WeAreHere/>
       <Enjoy/>
