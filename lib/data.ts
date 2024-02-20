@@ -59,3 +59,6 @@ export const getUsers = async () => {
     throw new Error("Failed to fetch users!");
   }
 };
+
+
+export const  contactDetailsSingle = '78894 22838'
