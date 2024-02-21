@@ -25,8 +25,8 @@ const ContactPage = () => {
 
 
   return (
-    <div className={`${styles.container} px-8`}>
-      <div className={styles.imgContainer}>
+    <section className={`flex h-[calc(100vh-142px)] flex-col sm:flex-row items-center justify-between gap-10 px-8`}>
+      <div className={`hidden sm:block sm:flex-1 h-[500px] relative`}>
         <Image src="/contact.png" alt="Contact us" fill className={styles.img} />
       </div>
       <div className={styles.formContainer}>
@@ -36,7 +36,7 @@ const ContactPage = () => {
         <ContactForm/>
         </Suspense>
       </div>
-    </div>
+    </section>
   );
 };
 
