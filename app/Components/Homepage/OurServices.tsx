@@ -154,11 +154,11 @@ const OurServices = () => {
               </ul>
               <div className="my-2 sm:mt-auto px-4 sm:py-4">
                 <Link
-                  href={"/services/managed-services"}
+                  href={"/cabService"}
                   aria-label="Managed Services"
                 >
                   <button className="msm:text-sm bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
-                    Book Now {"->"}
+                    View More {"->"}
                   </button>
                 </Link>
               </div>
@@ -275,11 +275,11 @@ const OurServices = () => {
               </ul>
               <div className="my-2 sm:mt-auto px-4 sm:py-4">
                 <Link
-                  href={"/services/managed-services"}
+                  href={"/carRental"}
                   aria-label="Managed Services"
                 >
                   <button className="msm:text-sm bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
-                    Book Now {"->"}
+                    View More {"->"}
                   </button>
                 </Link>
               </div>
@@ -396,11 +396,11 @@ const OurServices = () => {
               </ul>
               <div className="my-2 sm:mt-auto px-4 sm:py-4">
                 <Link
-                  href={"/services/managed-services"}
+                  href={"/bikeRental"}
                   aria-label="Managed Services"
                 >
                   <button className="msm:text-sm bg-primary hover:text-primary hover:bg-white hover:drop-shadow-lg text-white px-6 py-2 rounded-full shadow-sm mt-0 sm:mt-6">
-                    Book Now {"->"}
+                    View More {"->"}
                   </button>
                 </Link>
               </div>
