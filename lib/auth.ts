@@ -42,7 +42,6 @@ export const {
     CredentialsProvider({
       async authorize(credentials) {
         try {
-          console.log(auth)
           const user = await login(credentials);
           return user;
         } catch (err) {
@@ -57,7 +56,6 @@ export const {
         connectToDb();
         try {
           const user = await User.findOne({ email: profile.email });
-
           if (!user) {
             const newUser = new User({
               username: profile.login,

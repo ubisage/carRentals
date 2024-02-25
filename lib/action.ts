@@ -6,6 +6,9 @@ import { connectToDb } from "./utils";
 import { signIn, signOut } from "./auth";
 import bcrypt from "bcryptjs";
 import emailjs from '@emailjs/browser';
+
+export const addVehicle = async () => {}
+
 export const addPost = async (prevState:any,formData:any) => {
   // const title = formData.get("title");
   // const desc = formData.get("desc");
