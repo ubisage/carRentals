@@ -3,10 +3,18 @@
 import { addUser } from "@/lib/action";
 import styles from "./adminUserForm.module.css";
 import { useFormState } from "react-dom";
+import { useFormStatus } from "react-dom";
+
+
+function Submit() {
+  const status = useFormStatus();
+  return <button disabled={status.pending} className="disabled:cursor-not-allowed disabled:bg-gray-400">Add</button>
+}
 
 const AdminUserForm = () => {
   const [state, formAction] = useFormState(addUser, undefined);
 
+  
   return (
     <form action={formAction} className={styles.container}>
       <h1>Add New User</h1>
@@ -19,7 +27,7 @@ const AdminUserForm = () => {
         <option value="false">No</option>
         <option value="true">Yes</option>
       </select>
-      <button>Add</button>
+      <Submit/>
       {state?.error}
     </form>
   );

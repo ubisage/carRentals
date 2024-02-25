@@ -62,3 +62,90 @@ export const getUsers = async () => {
 
 
 export const  contactDetailsSingle = '78894 22838'
+
+export const carRentalVehicles = [
+  {
+    id:1,
+    cardImage: '/Cars/Fortuner.webp',
+    vehicleName: 'Fortuner',
+    pricePerDay:5000,
+    distanceTravelled:4000,
+    gearShiftType: 'Auto',
+    personCapacity:4,
+    fuelType: 'Petrol',
+    bookNowLink:'/contact/1',
+    baggageCapacity:3
+  },
+  {
+    id:2,
+    cardImage: '/Cars/12-Seater-Tempo.webp',
+    vehicleName: '12 Seater Winger',
+    pricePerDay:5000,
+    distanceTravelled:7000,
+    gearShiftType: 'Manual',
+    personCapacity:12,
+    fuelType: 'Petrol',
+    bookNowLink:'/contact/2',
+    baggageCapacity:7
+  },
+  {
+    id:3,
+    cardImage: '/Cars/13Seater-winger.webp',
+    vehicleName: '13 Seater Winger',
+    pricePerDay:5500,
+    distanceTravelled:7000,
+    gearShiftType: 'Manual',
+    personCapacity:12,
+    fuelType: 'Petrol',
+    bookNowLink:'/contact/3',
+    baggageCapacity:8
+  },
+  {
+    id:4,
+    cardImage: '/Cars/Etios.webp',
+    vehicleName: 'Etios',
+    pricePerDay:2600,
+    distanceTravelled:7000,
+    gearShiftType: 'Manual',
+    personCapacity:3,
+    fuelType: 'Petrol',
+    bookNowLink:'/contact/4',
+    baggageCapacity:3
+  },
+  {
+    id:5,
+    cardImage: '/Cars/innova-crysta.webp',
+    vehicleName: 'Innova Crysta',
+    pricePerDay:4000,
+    distanceTravelled:7000,
+    gearShiftType: 'Manual',
+    personCapacity:6,
+    fuelType: 'Petrol',
+    bookNowLink:'/contact/5',
+    baggageCapacity:4
+  },
+  {
+    id:6,
+    cardImage: '/Cars/swift-dezire.webp',
+    vehicleName: 'Swift Dezire',
+    pricePerDay:2600,
+    distanceTravelled:7000,
+    gearShiftType: 'Manual',
+    personCapacity:3,
+    fuelType: 'Petrol',
+    bookNowLink:'/contact/6',
+    baggageCapacity:3
+  },
+  {
+    id:7,
+    cardImage: '/Cars/tavera.webp',
+    vehicleName: 'Tavera',
+    pricePerDay:2800,
+    distanceTravelled:7000,
+    gearShiftType: 'Manual',
+    personCapacity:7,
+    fuelType: 'Petrol',
+    bookNowLink:'/contact/7',
+    baggageCapacity:5
+  },
+]
