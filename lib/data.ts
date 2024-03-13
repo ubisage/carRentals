@@ -73,7 +73,7 @@ export const carRentalVehicles = [
     gearShiftType: 'Auto',
     personCapacity:4,
     fuelType: 'Petrol',
-    bookNowLink:'/contact/1',
+    bookNowLink:'1',
     baggageCapacity:3
   },
   {
@@ -85,7 +85,7 @@ export const carRentalVehicles = [
     gearShiftType: 'Manual',
     personCapacity:12,
     fuelType: 'Petrol',
-    bookNowLink:'/contact/2',
+    bookNowLink:'2',
     baggageCapacity:7
   },
   {
@@ -97,7 +97,7 @@ export const carRentalVehicles = [
     gearShiftType: 'Manual',
     personCapacity:12,
     fuelType: 'Petrol',
-    bookNowLink:'/contact/3',
+    bookNowLink:'3',
     baggageCapacity:8
   },
   {
@@ -109,7 +109,7 @@ export const carRentalVehicles = [
     gearShiftType: 'Manual',
     personCapacity:3,
     fuelType: 'Petrol',
-    bookNowLink:'/contact/4',
+    bookNowLink:'4',
     baggageCapacity:3
   },
   {
@@ -121,7 +121,7 @@ export const carRentalVehicles = [
     gearShiftType: 'Manual',
     personCapacity:6,
     fuelType: 'Petrol',
-    bookNowLink:'/contact/5',
+    bookNowLink:'5',
     baggageCapacity:4
   },
   {
@@ -133,7 +133,7 @@ export const carRentalVehicles = [
     gearShiftType: 'Manual',
     personCapacity:3,
     fuelType: 'Petrol',
-    bookNowLink:'/contact/6',
+    bookNowLink:'6',
     baggageCapacity:3
   },
   {
@@ -145,7 +145,7 @@ export const carRentalVehicles = [
     gearShiftType: 'Manual',
     personCapacity:7,
     fuelType: 'Petrol',
-    bookNowLink:'/contact/7',
+    bookNowLink:'7',
     baggageCapacity:5
   },
 ]

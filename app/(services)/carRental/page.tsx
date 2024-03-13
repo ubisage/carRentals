@@ -12,7 +12,7 @@ const CarRentalPage = () => {
         </section>
         <section className="w-full flex flex-wrap items-center justify-center gap-10 mt-10">
         {carRentalVehicles.map((car) => (
-          <VehicleCard key={car.id} vehicle={car} />
+          <VehicleCard key={car.id} vehicle={car} mode={'carRental'} />
         ))}
       </section>
         
