@@ -19,7 +19,7 @@ interface VehicleProps  {
     bookNowLink:string,
     baggageCapacity:number
 }
-const VehicleCard = ({vehicle}:{vehicle:VehicleProps}) => {
+const VehicleCard = ({vehicle,mode}:{vehicle:VehicleProps,mode:string}) => {
   return (
     <article className=' flex flex-col gap-3 rounded-lg p-2 ring-0 hover:ring-1 hover:ring-white '>
         <div className='overflow-hidden rounded-lg'>
@@ -47,7 +47,7 @@ const VehicleCard = ({vehicle}:{vehicle:VehicleProps}) => {
             </div>
             </div>
         </div>
-        <Link href={vehicle.bookNowLink}>
+        <Link href={`/query/${vehicle.id}?mode=${mode}`}>
         <Button className='mb-2'>
         Book Now
         </Button>
